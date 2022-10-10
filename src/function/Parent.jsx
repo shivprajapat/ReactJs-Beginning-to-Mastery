@@ -2,8 +2,8 @@ import React from "react";
 import Child from "./Child";
 
 const Parent = () => {
-  function clickMe() {
-    alert("Click to parent component!");
+  function clickMe(message) {
+    alert(`Click to ${message}`);
   }
   return (
     <div>

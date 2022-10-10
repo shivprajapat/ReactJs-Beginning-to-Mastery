@@ -6,7 +6,7 @@ class Child extends Component {
         return (
             <div>
                 <h5>Child</h5>
-                <button onClick={clickMe}>child button</button>
+                <button onClick={() => clickMe('child component !!')}>child button</button>
             </div>
         )
     }
