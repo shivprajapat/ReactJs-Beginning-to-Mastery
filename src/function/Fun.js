@@ -1,14 +1,14 @@
 import React, { Fragment, useState } from 'react'
 
 const Fun = ({ name }) => {
-    const [message, setMessage] = useState("Hooks use Function Components")
+    const [count, setCount] = useState(0)
     const clickMe=()=>{
-        setMessage("Click messages")
+        setCount(count + 1)
     }
     return (
         <Fragment>
             <h2>{name}</h2>
-            <p>{message}</p>
+            <p style={{color:"red"}}>{count}</p>
             <button onClick={clickMe}>Click Me</button>
         </Fragment>
     )
