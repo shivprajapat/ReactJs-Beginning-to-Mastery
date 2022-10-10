@@ -1,5 +1,5 @@
 import './App.css';
-// import Fun from './function/Fun';
+import Fun from './function/Fun';
 import Cls from './class/Cls';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <p>
         🏆 ReactJs Beginning to Mastery 🏆
         </p>
-        {/* <Fun /> */}
+        <Fun />
         <Cls/>
       </header>
     </div>

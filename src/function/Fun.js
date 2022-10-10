@@ -1,12 +1,15 @@
 import React from 'react'
+import Parent from './Parent';
 
 const Fun = () => {
-   function clickMe(){
-        alert('event clicked');
-      }
-        return (
+  function clickMe() {
+    alert('event clicked');
+  }
+  return (
     <div>
-        <button onClick={clickMe}>click me</button>
+      <h2>Function Components</h2>
+      <button onClick={clickMe}>click me</button>
+      <Parent/>
     </div>
   )
 }
