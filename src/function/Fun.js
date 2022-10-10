@@ -1,10 +1,15 @@
-import React, { createElement } from 'react'
+import React from 'react'
+import Div from '../Div'
 
-const Fun = () => {
-  return createElement(
-    "div",
-    null,createElement("h2",null, "Function Components")
-  )
+const Fun = (props) => {
+    return (
+        <>
+            <Div>
+                <p>passing the children components</p>
+            </Div>
+            <h2>{props.name}</h2>
+        </>
+    )
 }
 
 export default Fun
