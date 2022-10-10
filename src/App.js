@@ -1,4 +1,6 @@
 import './App.css';
+import Fun from './function/Fun';
+import Cls from './class/Cls';
 
 function App() {
   return (
@@ -7,7 +9,8 @@ function App() {
         <p>
         🏆 ReactJs Beginning to Mastery 🏆
         </p>
-        
+        <Fun/>
+        <Cls/>
       </header>
     </div>
   );
