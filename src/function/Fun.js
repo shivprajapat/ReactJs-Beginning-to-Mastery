@@ -1,17 +1,14 @@
-import React, { Fragment, useState } from 'react'
+import React from 'react'
 
-const Fun = ({ name }) => {
-    const [count, setCount] = useState(0)
-    const clickMe=()=>{
-        setCount(count + 1)
-    }
-    return (
-        <Fragment>
-            <h2>{name}</h2>
-            <p style={{color:"red"}}>{count}</p>
-            <button onClick={clickMe}>Click Me</button>
-        </Fragment>
-    )
+const Fun = () => {
+   function clickMe(){
+        alert('event clicked');
+      }
+        return (
+    <div>
+        <button onClick={clickMe}>click me</button>
+    </div>
+  )
 }
 
 export default Fun

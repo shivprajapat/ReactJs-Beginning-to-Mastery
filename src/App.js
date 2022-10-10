@@ -9,8 +9,8 @@ function App() {
         <p>
         🏆 ReactJs Beginning to Mastery 🏆
         </p>
-        <Fun name='function'/>
-        <Cls name="class"/>
+        <Fun />
+        <Cls/>
       </header>
     </div>
   );
