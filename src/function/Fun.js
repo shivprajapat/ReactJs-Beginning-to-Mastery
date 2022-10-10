@@ -1,13 +1,9 @@
 import React, { Fragment } from 'react'
-import Div from '../Div'
 
-const Fun = (props) => {
+const Fun = ({name}) => {
     return (
         <Fragment>
-            <Div>
-                <p>passing the children components</p>
-            </Div>
-            <h2>{props.name}</h2>
+            <h2>{name}</h2>
         </Fragment>
     )
 }

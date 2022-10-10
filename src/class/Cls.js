@@ -1,15 +1,12 @@
-import React,{Component, Fragment} from 'react'
+import React, { Component, Fragment } from 'react'
 
 export default class Cls extends Component {
   render() {
+    const { name } = this.props
     return (
-        <Fragment>
-          <div>
-            <>
-            <h2>{this.props.name}</h2>
-            </>
-          </div>
-        </Fragment>
+      <Fragment>
+        <h2>{name}</h2>
+      </Fragment>
     )
   }
 }
