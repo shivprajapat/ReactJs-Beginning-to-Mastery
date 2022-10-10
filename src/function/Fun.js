@@ -1,8 +1,9 @@
-import React from 'react'
+import React, { createElement } from 'react'
 
 const Fun = () => {
-  return (
-    <div>Function Components</div>
+  return createElement(
+    "div",
+    null,createElement("h2",null, "Function Components")
   )
 }
 

@@ -1,9 +1,11 @@
-import React, { Component } from 'react'
+import React, { Component, createElement } from 'react'
 
 export default class Cls extends Component {
   render() {
-    return (
-      <div>Class  Components</div>
+    return createElement(
+        "div",
+        null,
+        createElement('h2',null,"Class  Components")
     )
   }
 }
