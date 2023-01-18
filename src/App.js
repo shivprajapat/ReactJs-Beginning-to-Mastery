@@ -1,17 +1,11 @@
+import React from 'react';
 import './App.css';
-import Fun from './function/Fun';
-import Cls from './class/Cls';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-        🏆 ReactJs Beginning to Mastery 🏆
-        </p>
-        <Fun />
-        <Cls/>
-      </header>
+    <div className='todo-app'>
+      <TodoList />
     </div>
   );
 }
